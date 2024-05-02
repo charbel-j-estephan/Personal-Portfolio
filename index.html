@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              id="rcorners1"
+              src="./assets/images/my-avatar.png"
+              alt="Charbel-j-estephan"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Charbel Estephan">Charbel Estephan</h1>
+
+            <p class="title">CCE Student</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline" aria-label="Email"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:charbelstephan12@gmail.com" class="contact-link"
+                  >charbelstephan12@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="phone-portrait-outline"
+                  aria-label="Phone"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+96171616363" class="contact-link"
+                  >+961 71 616363</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2005-12-30">December 30, 2005</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Achkout, Keserwan, Lebanon</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/charbel-j-estephan/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/charbel_stephan/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/charbel-j-estephan"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Charbel Estephan, a Computer and Communication Engineering
+              student with a passion for technology and design. Currently based
+              in Lebanon, Achkout, I am enthusiastic about creating innovative
+              solutions that combine functionality and aesthetics.
+            </p>
+            <p>
+              My goal is to leverage my skills in web development and design to
+              craft user-friendly and visually appealing digital experiences. I
+              believe in turning challenges into opportunities and bringing
+              creativity to every project I undertake.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm Doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="Design Icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Design</h4>
+                  <p class="service-item-text">
+                    I create modern and high-quality designs at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web Development Icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">
+                    I develop high-quality websites at a professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="Mobile App Icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Computer Vision and Image Processing
+                  </h4>
+                  <p class="service-item-text">
+                    I develop cutting-edge solutions for visual data analysis
+                    and enhancement.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="Camera Icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Image Editing</h4>
+                  <p class="service-item-text">
+                    I edit high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="assets\images\WhatsApp Image 2024-05-01 at 21.53.13_00503450.jpg"
+                      alt="Zahi Haddad Avatar"
+                      width="60"
+                      id="rcorners2"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Zahi Fouad Al-Haddad
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Having collaborated closely with Charbel on numerous
+                      personal projects, I can confidently attest to his
+                      exceptional skills and work ethic. As an HR professional
+                      at FOCUS, a newly established startup, I highly recommend
+                      considering Charbel for any relevant roles within your
+                      team. His contributions have consistently demonstrated a
+                      keen attention to detail, creativity, and a strong
+                      commitment to excellence."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="assets\images\WhatsApp Image 2024-05-01 at 21.57.52_65060cde.jpg"
+                      alt="Elie Hajj Avatar"
+                      width="60"
+                      id="rcorners3"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Elie Maroun Hajj
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Having collaborated closely with Charbel on numerous
+                      personal projects, I can confidently attest to his
+                      exceptional skills and work ethic. I highly recommend
+                      considering Charbel for any relevant roles within your
+                      team. His contributions have consistently demonstrated a
+                      keen attention to detail, creativity, and a strong
+                      commitment to excellence.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- testimonials modal -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="assets/images/avatar-1.jpg"
+                    alt="Daniel Lewis Avatar"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+                <img src="assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                <time datetime="2023">14 June, 2023</time>
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="https://www.facebook.com/LibrairieLeCrayon/">
+                  <img
+                    src="assets\images\le crayon.png"
+                    alt="le crayon logo"
+                    style="width: 150px; height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.instagram.com/elsamartravel.dxb/">
+                  <img src="assets\images\EL-samar.png" alt="El SAMAR logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Antonine International School
+                </h4>
+
+                <span>2008 — 2023</span>
+
+                <p class="timeline-text">
+                  Graduated from AIS with honors, excelling in mathematics and
+                  science courses. Actively participated in debate club, honing
+                  communication and critical thinking skills.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Notre Dame University</h4>
+
+                <span>2023 — present</span>
+
+                <p class="timeline-text">
+                  Currently pursuing a Bachelor's degree in Computer and
+                  Communication Engineering, with a focus on web development and
+                  technology integration. Completed coursework in programming
+                  languages, algorithms, and system design.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Librairie Le Crayon</h4>
+
+                <span>2019 — Present</span>
+
+                <p class="timeline-text">
+                  Managed inventory, including restocking shelves, organizing
+                  displays, and handling transactions
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelancing</h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  Experienced freelance web developer specializing in creating
+                  responsive and visually appealing websites. Proficient in
+                  HTML, CSS, JavaScript, and responsive design principles,
+                  delivering high-quality solutions tailored to client needs.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Design</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic Design</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">OpenCV</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+            <div>
+              <a
+                href="assets\images\Charbel Estephan Resume.pdf"
+                download="Charbel-j-estephan.pdf"
+                class="btn"
+                style="margin-top: 50px; margin-bottom: 20px; margin-left: 40%"
+                >Download My CV</a
+              >
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/charbel-j-estephan/EL_SAMAR">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\El-samar-web.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">EL SAMAR</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/charbel-j-estephan/SUMO_BOT">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\Minisumo-bot.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Sumo Bot</h3>
+
+                  <p class="project-category">Arduino</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/charbel-j-estephan/Virtual_mouse">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\Virtual-Mouse.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Virtual Mouse</h3>
+
+                  <p class="project-category">Open CV</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/charbel-j-estephan/Blackboard">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\BB-bot.jpeg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BlackBoard Bot</h3>
+
+                  <p class="project-category">Selenium</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="assets\images\AI RP.pdf"
+                  download="Ai-research-paper.pdf"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\AI-RP.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AI research paper</h3>
+
+                  <p class="project-category">Ai in the workplace</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="assets\images\testautomationuniversity_seleniumpython.png"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="assets\images\testautomationuniversity_seleniumpython.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Selenium Python verification</h3>
+
+                  <p class="project-category">Test Automation University</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Virtual Assignements</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="assets\images\cover letter.docx">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets\images\coverlettergraphic.jpg"
+                      alt="Cover letter"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Cover Letter Sample</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 12, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Cover letter example</h3>
+
+                    <p class="blog-text">A basic Cover letter template.</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="assets\images\Work.pdf">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/work-based-learning.jpeg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Work-Based Learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-05-01">May 01, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Le Crayon experience</h3>
+
+                    <p class="blog-text">What have I acquired ?</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="assets\images\Assignment 1.5 You Rock.pdf">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/yourock.jpeg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Skills Diamond</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 01, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">You Rock Diamond Skills</h3>
+
+                    <p class="blog-text">
+                      A visual interpretation of my technical and soft skills.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="assets\images\english copy.pdf">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/learning styles.jpg"
+                      alt="learning styles"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Learning Styles</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Learning Style and Strategy Visual.
+                    </h3>
+
+                    <p class="blog-text">
+                      The best ways I learn new informations, and how should I
+                      apply them.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="assets/images/Comis-strip.jpg">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Communication-in-the-Workplace-Statistics.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Workplace Communication</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 03, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      A fun representation of the correct way, collegues should
+                      communicate in the workplace.
+                    </h3>
+
+                    <p class="blog-text">
+                      A direct comparasion of Good and Bad communication
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="assets\images\WhatsApp Video 2024-05-02 at 00.26.57_d928e427.mp4"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/customer service.jpeg"
+                      alt="customer service video"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Customer Service Video</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 03, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The most efficient way of customer service.
+                    </h3>
+
+                    <p class="blog-text">
+                      An example of a great customer service.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13232.201401847178!2d35.709825450000004!3d33.99124045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f4644ee5df0df%3A0x55cf90d1e62a9894!2sAshqout!5e0!3m2!1sen!2slb!4v1713593398572!5m2!1sen!2slb"
+                wwidth="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
